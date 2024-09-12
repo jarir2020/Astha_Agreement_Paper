@@ -28,6 +28,15 @@ input[type="text"], input[type="email"], input[type="date"], select {
     margin: 10px 0;
     box-sizing: border-box;
 }
+
+input[type="text"],input[type="email"]{
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    width: 100%;
+    padding: 8px 0;
+}
+
 button {
     background-color: #f5a623;
     color: white;
